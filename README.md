@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Med-CPCL: Medical Conformal Prediction for Continual Learning
 
 A research-grade implementation of a novel framework that provides
@@ -151,3 +152,6 @@ medcpcl/
   year   = {2025}
 }
 ```
+=======
+# Med_CPCL
+>>>>>>> 0f70c116b6bdb329b7af6f0050ce975266d6aac6
