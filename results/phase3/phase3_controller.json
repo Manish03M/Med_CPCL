@@ -1,0 +1,78 @@
+{
+  "controller": {
+    "ref_drift": 0.2,
+    "gamma_min": 0.7,
+    "eta": 1.0,
+    "drift_history": [
+      0.192251,
+      0.129058,
+      0.143905
+    ],
+    "gamma_history": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  "gamma_log": {
+    "0": 1.0,
+    "1": 0.7,
+    "2": 0.7,
+    "3": 0.7
+  },
+  "quantile_log": {
+    "0": {
+      "Atelectasis": 0.595537,
+      "Cardiomegaly": 0.790433,
+      "Effusion": 0.591453,
+      "Infiltration": 0.560261
+    },
+    "1": {
+      "Pneumonia": 0.870246,
+      "Pneumothorax": 0.734545,
+      "Consolidation": 0.693112,
+      "Edema": 0.701633
+    },
+    "2": {
+      "Emphysema": 0.644649,
+      "Fibrosis": 0.728032,
+      "Pleural_Thickening": 0.634943,
+      "Mass": 0.602031
+    },
+    "3": {
+      "Nodule": 0.644437,
+      "Hernia": 0.965042
+    }
+  },
+  "corrections": [
+    {
+      "task": 1,
+      "delta_mu": 0.192251,
+      "gamma": 0.7,
+      "correction_added": 0.004806,
+      "entries_corrected": 800
+    },
+    {
+      "task": 2,
+      "delta_mu": 0.129058,
+      "gamma": 0.7,
+      "correction_added": 0.003226,
+      "entries_corrected": 1596
+    },
+    {
+      "task": 3,
+      "delta_mu": 0.143905,
+      "gamma": 0.7,
+      "correction_added": 0.003598,
+      "entries_corrected": 2396
+    }
+  ],
+  "config": {
+    "ref_drift": 0.2,
+    "gamma_min": 0.7,
+    "eta": 1.0,
+    "correction_strength": 0.005,
+    "alpha": 0.1,
+    "score_memory_size": 200
+  }
+}

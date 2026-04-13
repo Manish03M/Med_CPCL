@@ -1,0 +1,45 @@
+{
+  "0": {
+    "best_val_auc": 0.8162,
+    "test_auc": 0.8127,
+    "test_per_class_auc": {
+      "Atelectasis": 0.7865,
+      "Cardiomegaly": 0.8878,
+      "Effusion": 0.8667,
+      "Infiltration": 0.7098
+    }
+  },
+  "1": {
+    "best_val_auc": 0.8478,
+    "test_auc": 0.8459,
+    "test_per_class_auc": {
+      "Pneumonia": 0.7592,
+      "Pneumothorax": 0.8796,
+      "Consolidation": 0.8332,
+      "Edema": 0.9115
+    }
+  },
+  "2": {
+    "best_val_auc": 0.8377,
+    "test_auc": 0.8224,
+    "test_per_class_auc": {
+      "Emphysema": 0.9129,
+      "Fibrosis": 0.775,
+      "Pleural_Thickening": 0.8119,
+      "Mass": 0.7899
+    }
+  },
+  "3": {
+    "best_val_auc": 0.828,
+    "test_auc": 0.8331,
+    "test_per_class_auc": {
+      "Nodule": 0.7729,
+      "Hernia": 0.8932
+    }
+  },
+  "drift_log": {
+    "T0\u2192T1": 0.1923,
+    "T1\u2192T2": 0.1291,
+    "T2\u2192T3": 0.1439
+  }
+}

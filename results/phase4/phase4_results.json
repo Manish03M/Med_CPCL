@@ -1,0 +1,134 @@
+{
+  "0": {
+    "weighted": {
+      "marginal_coverage": 0.9022,
+      "min_coverage": 0.8793,
+      "avg_set_size": 2.1209,
+      "triage_efficiency": 0.1515,
+      "per_class_coverage": {
+        "Atelectasis": 0.8793,
+        "Cardiomegaly": 0.9234,
+        "Effusion": 0.9042,
+        "Infiltration": 0.9018
+      }
+    },
+    "static": {
+      "marginal_coverage": 0.9022,
+      "min_coverage": 0.8793,
+      "avg_set_size": 2.1209,
+      "triage_efficiency": 0.1515,
+      "per_class_coverage": {
+        "Atelectasis": 0.8793,
+        "Cardiomegaly": 0.9234,
+        "Effusion": 0.9042,
+        "Infiltration": 0.9018
+      }
+    }
+  },
+  "1": {
+    "weighted": {
+      "marginal_coverage": 0.9358,
+      "min_coverage": 0.9153,
+      "avg_set_size": 2.0533,
+      "triage_efficiency": 0.1467,
+      "per_class_coverage": {
+        "Pneumonia": 0.9551,
+        "Pneumothorax": 0.9472,
+        "Consolidation": 0.9255,
+        "Edema": 0.9153
+      }
+    },
+    "static": {
+      "marginal_coverage": 0.9358,
+      "min_coverage": 0.9153,
+      "avg_set_size": 2.0533,
+      "triage_efficiency": 0.1467,
+      "per_class_coverage": {
+        "Pneumonia": 0.9551,
+        "Pneumothorax": 0.9472,
+        "Consolidation": 0.9255,
+        "Edema": 0.9153
+      }
+    }
+  },
+  "2": {
+    "weighted": {
+      "marginal_coverage": 0.8929,
+      "min_coverage": 0.8781,
+      "avg_set_size": 1.9272,
+      "triage_efficiency": 0.1377,
+      "per_class_coverage": {
+        "Emphysema": 0.8781,
+        "Fibrosis": 0.8989,
+        "Pleural_Thickening": 0.9043,
+        "Mass": 0.8903
+      }
+    },
+    "static": {
+      "marginal_coverage": 0.8929,
+      "min_coverage": 0.8781,
+      "avg_set_size": 1.9272,
+      "triage_efficiency": 0.1377,
+      "per_class_coverage": {
+        "Emphysema": 0.8781,
+        "Fibrosis": 0.8989,
+        "Pleural_Thickening": 0.9043,
+        "Mass": 0.8903
+      }
+    }
+  },
+  "3": {
+    "weighted": {
+      "marginal_coverage": 0.9391,
+      "min_coverage": 0.9094,
+      "avg_set_size": 1.4513,
+      "triage_efficiency": 0.1037,
+      "per_class_coverage": {
+        "Nodule": 0.9094,
+        "Hernia": 0.9688
+      }
+    },
+    "static": {
+      "marginal_coverage": 0.9391,
+      "min_coverage": 0.9094,
+      "avg_set_size": 1.4513,
+      "triage_efficiency": 0.1037,
+      "per_class_coverage": {
+        "Nodule": 0.9094,
+        "Hernia": 0.9688
+      }
+    }
+  },
+  "quantiles_weighted": {
+    "Atelectasis": 0.6072,
+    "Cardiomegaly": 0.8021,
+    "Effusion": 0.6031,
+    "Infiltration": 0.5719,
+    "Pneumonia": 0.8771,
+    "Pneumothorax": 0.7414,
+    "Consolidation": 0.6999,
+    "Edema": 0.7085,
+    "Emphysema": 0.6482,
+    "Fibrosis": 0.7316,
+    "Pleural_Thickening": 0.6385,
+    "Mass": 0.6056,
+    "Nodule": 0.6444,
+    "Hernia": 0.965
+  },
+  "quantiles_static": {
+    "Atelectasis": 0.6072,
+    "Cardiomegaly": 0.8021,
+    "Effusion": 0.6031,
+    "Infiltration": 0.5719,
+    "Pneumonia": 0.8771,
+    "Pneumothorax": 0.7414,
+    "Consolidation": 0.6999,
+    "Edema": 0.7085,
+    "Emphysema": 0.6482,
+    "Fibrosis": 0.7316,
+    "Pleural_Thickening": 0.6385,
+    "Mass": 0.6056,
+    "Nodule": 0.6444,
+    "Hernia": 0.965
+  }
+}
